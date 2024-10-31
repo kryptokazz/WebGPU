@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "types": ["@webgpu/types"],  // Add this line
+    "lib": ["ES2020", "DOM"]     // Ensure 'DOM' is included
+  },
+  "include": ["src/**/*"]
+}
+
